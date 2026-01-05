@@ -1,4 +1,4 @@
-# 🎬 Movie Data Analysis
+# Movie Data Analysis
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Pandas](https://img.shields.io/badge/pandas-data%20analysis-green)
@@ -62,16 +62,17 @@ hasta el año **2021**.
 
 ## Estructura del proyecto
 
+```text
 movie-data-analysis/
 ├── data/
-│ └── movies.csv
+│   └── movies.csv
 ├── sql/
-│ ├── create_tables.sql
-│ └── queries.sql
-├── notebook/
-│ └── analysis.ipynb
-├── README.md
-
+│   ├── create_tables.sql
+│   └── queries.sql
+├── notebooks/
+│   └── analysis.ipynb
+└── README.md
+````
 
 ---
 
