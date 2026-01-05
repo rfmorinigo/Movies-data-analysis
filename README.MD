@@ -6,6 +6,22 @@
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
+
+## Tabla de contenidos
+
+- [Descripción General](#descripción-general)
+- [Dataset](#dataset)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Análisis con SQL](#análisis-con-sql)
+- [KPIs analizados](#kpis-analizados)
+- [Cómo ejecutar el proyecto](#cómo-ejecutar-el-proyecto)
+- [Conclusiones](#conclusiones)
+- [Visualizacion del Notebook](#notebook)
+
+---
+## Descripción General
+
 Proyecto de **análisis exploratorio de datos** realizado sobre un dataset de
 películas y series de Netflix.  
 El objetivo es identificar **métricas clave (KPIs)** y **tendencias**
@@ -14,19 +30,6 @@ y la duración de las películas.
 
 El proyecto está orientado a **demostrar habilidades de análisis de datos
 a nivel junior**, combinando SQL y Python de forma práctica y realista.
-
----
-
-## Tabla de contenidos
-
-- [Dataset](#-dataset)
-- [Tecnologías utilizadas](#-tecnologías-utilizadas)
-- [Estructura del proyecto](#-estructura-del-proyecto)
-- [Análisis con SQL](#-análisis-con-sql)
-- [KPIs analizados](#-kpis-analizados)
-- [Cómo ejecutar el proyecto](#-cómo-ejecutar-el-proyecto)
-- [Conclusiones](#-conclusiones)
-- [Autor](#-autor)
 
 ---
 
@@ -122,7 +125,7 @@ posteriormente en el análisis con Python.
 
 ---
 
-## ▶Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 ### Requisitos
 - Python 3.x
@@ -155,3 +158,31 @@ Abrir el archivo de análisis:
 ```bash
 notebook/analysis.ipynb
 ```
+
+## Conclusiones
+
+Conclusiones
+
+Del análisis realizado sobre el dataset del catálogo se desprenden las siguientes conclusiones principales:
+
+### Composición del catálogo
+
+El catálogo analizado presenta una mayor proporción de películas en relación con las series de televisión, lo que indica una clara predominancia del formato cinematográfico dentro del conjunto de títulos evaluados. Esto sugiere que, al menos en el alcance del dataset analizado, la plataforma prioriza la oferta de películas frente a otros formatos de contenido.
+
+### Evolución temporal del catálogo
+
+El análisis temporal evidencia un crecimiento sostenido en la incorporación de títulos a partir del año 2010, con un incremento especialmente marcado durante la última década. Este comportamiento refleja una estrategia de expansión del catálogo en respuesta al crecimiento del consumo de contenido bajo demanda.
+
+La disminución observada en el año 2021 no debe interpretarse como una caída real en la producción o incorporación de contenidos, sino como una consecuencia del corte temporal del dataset, que contiene información únicamente hasta una parte de dicho año.
+
+### Duración promedio de las películas
+
+Luego del proceso de limpieza y normalización del campo de duración, se determinó que las películas presentan una duración promedio cercana a los 90 minutos. La distribución muestra una mayor concentración de títulos entre 80 y 120 minutos, lo que se encuentra alineado con los estándares tradicionales del formato cinematográfico. Esto sugiere una consistencia en la duración de los contenidos y una orientación hacia formatos ampliamente aceptados por el público.
+
+### Conclusión general
+
+El análisis permite identificar patrones claros en la composición, evolución y características del catálogo, aportando una visión estructurada sobre la estrategia de contenido y su alineación con tendencias del mercado audiovisual. Estos insights pueden servir como base para la toma de decisiones relacionadas con adquisición de contenidos, planificación de catálogo o análisis comparativo con otras plataformas.
+
+## Notebook
+
+[Ver Notebook](/notebooks/analysis.ipynb)
